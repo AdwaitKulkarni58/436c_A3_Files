@@ -1,0 +1,33 @@
+2024-10-18 17:52:44.351602: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:479] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-10-18 17:52:44.378603: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10575] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-10-18 17:52:44.378660: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1442] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-10-18 17:52:44.397172: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-18 17:52:45.486669: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/opt/tensorflow/lib/python3.10/site-packages/keras/src/layers/convolutional/base_conv.py:107: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2024-10-18 17:52:53.365325: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:282] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2024-10-18 17:52:54.603132: W external/local_tsl/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 552960000 exceeds 10% of free system memory.
+Epoch 1/10
+1407/1407 ━━━━━━━━━━━━━━━━━━━━ 45s 29ms/step - accuracy: 0.3558 - loss: 1.7817 - val_accuracy: 0.5172 - val_loss: 1.3314
+Epoch 2/10
+1407/1407 ━━━━━━━━━━━━━━━━━━━━ 84s 32ms/step - accuracy: 0.5375 - loss: 1.3017 - val_accuracy: 0.5784 - val_loss: 1.2093
+Epoch 3/10
+1407/1407 ━━━━━━━━━━━━━━━━━━━━ 82s 32ms/step - accuracy: 0.5866 - loss: 1.1723 - val_accuracy: 0.5818 - val_loss: 1.2009
+Epoch 4/10
+1407/1407 ━━━━━━━━━━━━━━━━━━━━ 83s 33ms/step - accuracy: 0.6139 - loss: 1.0897 - val_accuracy: 0.6128 - val_loss: 1.1175
+Epoch 5/10
+1407/1407 ━━━━━━━━━━━━━━━━━━━━ 45s 32ms/step - accuracy: 0.6446 - loss: 1.0018 - val_accuracy: 0.6318 - val_loss: 1.0835
+Epoch 6/10
+1407/1407 ━━━━━━━━━━━━━━━━━━━━ 43s 30ms/step - accuracy: 0.6691 - loss: 0.9337 - val_accuracy: 0.6288 - val_loss: 1.0815
+Epoch 7/10
+1407/1407 ━━━━━━━━━━━━━━━━━━━━ 84s 32ms/step - accuracy: 0.6881 - loss: 0.8750 - val_accuracy: 0.6340 - val_loss: 1.0844
+Epoch 8/10
+1407/1407 ━━━━━━━━━━━━━━━━━━━━ 80s 30ms/step - accuracy: 0.7123 - loss: 0.8207 - val_accuracy: 0.6484 - val_loss: 1.0800
+Epoch 9/10
+1407/1407 ━━━━━━━━━━━━━━━━━━━━ 83s 31ms/step - accuracy: 0.7277 - loss: 0.7686 - val_accuracy: 0.5954 - val_loss: 1.2723
+Epoch 10/10
+1407/1407 ━━━━━━━━━━━━━━━━━━━━ 82s 31ms/step - accuracy: 0.7477 - loss: 0.7300 - val_accuracy: 0.6384 - val_loss: 1.1248
+2024-10-18 18:05:24.048739: W external/local_tsl/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 122880000 exceeds 10% of free system memory.
+313/313 ━━━━━━━━━━━━━━━━━━━━ 3s 9ms/step - accuracy: 0.6258 - loss: 1.1374  
+Test accuracy: 0.6208000183105469
